@@ -54,7 +54,6 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .hero__text {
@@ -94,11 +93,13 @@ h4 {
 
 .hero__text p:nth-child(3) {
     font-family: "Press Start 2P", sans-serif;
+    word-spacing: -14px;
     font-size: 1.5em;
 }
 
 .hero__text p:nth-child(4) {
     font-family: "Monoton", sans-serif;
+    word-spacing: 10px;
     font-size: 1.7em;
 }
 
@@ -124,8 +125,15 @@ h4 {
 }
 
 .about img {
-    box-shadow: 5px 5px 15px var(--background-color);
+    box-shadow: -5px 5px 15px var(--background-color);
     padding-right: 10px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .footer {
