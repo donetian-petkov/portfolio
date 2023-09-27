@@ -4,56 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<nav id="menu">
-    <ul>
-        <li><a href="#movie-site">Movie Site</a></li>
-        <li><a href="#todo-list">ToDo List</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#weather-app">Weather App</a></li>
+<nav id="top-menu" class="top-menu">
+    <ul class="top-menu__list">
+        <li class="top-menu__list__menu">Home</li>
+        <li class="top-menu__list__menu">About</li>
+        <li class="top-menu__list__menu">Projects</li>
+        <li class="top-menu__list__menu">Contact</li>
     </ul>
 </nav>
-
-<header id="header">
-    <img src="header-image.jpg" alt="Header Image" />
-    <p>Brief Introduction about Myself and My Projects.</p>
-</header>
-
-<main id="projects">
-    <section id="movie-site">
-        <h2>Movie Site</h2>
-        <p>Brief description of the Movie Site project...</p>
-    </section>
-
-    <section id="todo-list">
-        <h2>ToDo List</h2>
-        <p>Brief description of the ToDo List project...</p>
-    </section>
-
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <p>Brief description of the Gallery project...</p>
-    </section>
-
-    <section id="weather-app">
-        <h2>Weather App</h2>
-        <p>Brief description of the Weather App project...</p>
-    </section>
+<main class="main-body">
+    <hero class="hero">
+        <img class="hero__image" src="https://www.donetianpetkov.com/wp-content/uploads/2023/09/hero.png">
+        <div class="hero__text">
+            <h1>DONETIAN PETKOV</h1>
+            <p>Cinephile by heart</p>
+            <p>Geek in mind</p>
+            <p>Traveller in spirit</p>
+        </div>
+    </hero>
 </main>
+<footer>
 
-<footer id="footer">
-    <p>Connect with me on:
-        <a href="http://twitter.com">Twitter</a>,
-        <a href="http://facebook.com">Facebook</a>,
-        <a href="http://instagram.com">Instagram</a>
-    </p>
-    <p>View my projects on <a href="http://github.com">GitHub</a></p>
 </footer>
-
-<script src="script.js"></script>
 </body>
 
 </html>
