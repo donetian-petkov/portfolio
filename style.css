@@ -49,7 +49,7 @@ h4 {
 }
 
 .hero {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     position: relative;
     display: flex;
     align-items: center;
@@ -116,15 +116,16 @@ h4 {
 }
 
 .about__text {
-    padding: 10px;
+    padding: 100px;
     font-family: Caveat,sans-serif;
     color: var(--text-color-secondary);
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
 }
 
-.about__image img {
-    box-shadow: 5px 5px 15px var(--menu-color);
+.about img {
+    box-shadow: 5px 5px 15px var(--background-color);
+    padding-right: 10px;
 }
 
 .footer {
