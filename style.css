@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Fredericka+the+Great&family=Amatic+SC&family=Dancing+Script&family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap");
+
 :root{
     --background-color: #c0c2ff;
     --menu-color: #220B40;
     --card-color: linear-gradient(
-            90deg,
-           #c0c2ff  0%,
-           #A000FD 100%
+            to right bottom,
+            #c0c2ff,
+            #cecaff,
+            #dbd3fe,
+            #e6dcff,
+            #efe5ff
     );
     --text-color: #F0F4F8;
 
@@ -13,13 +18,18 @@
 
 html {
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
+
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: "Joan", serif;
+    font-family: "Fredericka the Great", serif;
 }
 
 .main-body {
@@ -34,23 +44,41 @@ h4 {
 }
 
 .hero__text {
-    background: var(--card-color);
     position: absolute;
-    top: 10%;
-    left: 35%;
+    top: 2%;
+    left: 30%;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
+
 }
 
-.hero__text h1 {
+.hero__text h1, p {
     margin: 0;
     font-size: 2em;
 }
 
 .hero__text p {
-    margin: 0;
-    font-size: 2em;
+    color:var(--text-color);
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.hero__text p:nth-child(2) {
+    font-family: "Monoton", sans-serif;;
+    color:var(--text-color);
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.hero__text p:nth-child(3) {
+    font-family: "Press Start 2P", sans-serif;
+    font-size:1.5em;
+    color:var(--text-color);
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.hero__text p:nth-child(4) {
+    font-family: "Dancing Script", sans-serif;
+    color:var(--text-color);
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .top-menu {
@@ -73,3 +101,9 @@ h4 {
     margin: 10px;
 }
 
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--menu-color);
+    color: white;
+}
