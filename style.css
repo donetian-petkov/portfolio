@@ -4,7 +4,7 @@
     --background-color: #c0c2ff;
     --menu-color: #220B40;
     --text-color: #F0F4F8;
-
+    --text-color-secondary: #c0c2ff;
 
 }
 
@@ -44,7 +44,7 @@ h4 {
 
 .top-menu__list__menu {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--text-color-secondary);
     margin: 10px;
 }
 
@@ -116,13 +116,14 @@ h4 {
 }
 
 .about__text {
+    padding: 10px;
     font-family: Caveat,sans-serif;
-    color: var(--background-color);
+    color: var(--text-color-secondary);
     text-align: center;
     font-size: 16px;
 }
 
-.about img {
+.about__image img {
     box-shadow: 5px 5px 15px var(--menu-color);
 }
 
