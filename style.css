@@ -60,11 +60,11 @@ h4 {
     color:var(--text-color);
     text-shadow: 1px 1px 1px var(--background-color);
 }
-
 .hero__text p:nth-child(2) {
-    font-family: "Monoton", sans-serif;
-    font-size:1.7em;
+    font-family: "Dancing Script", sans-serif;
+    font-size:2.3em;
 }
+
 
 .hero__text p:nth-child(3) {
     font-family: "Press Start 2P", sans-serif;
@@ -72,8 +72,8 @@ h4 {
 }
 
 .hero__text p:nth-child(4) {
-    font-family: "Dancing Script", sans-serif;
-    font-size:2.3em;
+    font-family: "Monoton", sans-serif;
+    font-size:1.7em;
 }
 
 .top-menu {
@@ -92,6 +92,7 @@ h4 {
 }
 
 .top-menu__list__menu {
+    text-decoration: none;
     color: var(--text-color);
     margin: 10px;
 }
