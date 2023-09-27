@@ -56,9 +56,14 @@ h4 {
     font-size: 2em;
 }
 
+.hero__text h1 {
+    color: var(--menu-color);
+    text-shadow: 2px 2px 2px var(--background-color);
+}
+
 .hero__text p {
     color:var(--text-color);
-    text-shadow: 1px 1px 1px var(--background-color);
+    text-shadow: 2px 2px 2px var(--background-color);
 }
 .hero__text p:nth-child(2) {
     font-family: "Dancing Script", sans-serif;
