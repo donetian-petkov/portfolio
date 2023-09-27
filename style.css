@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&family=Fredericka+the+Great&family=Amatic+SC&family=Dancing+Script&family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap");
 
 :root{
-    --background-color: #c0c2ff;
+        --background-color: #c0c2ff;
     --menu-color: #220B40;
     --card-color: linear-gradient(
             to right bottom,
@@ -45,11 +45,10 @@ h4 {
 
 .hero__text {
     position: absolute;
-    top: 2%;
-    left: 30%;
     padding: 20px;
     text-align: center;
-
+    transform: translate(-30%, -70%);
+    box-shadow: 3px 3px 10px 3px var(--background-color);
 }
 
 .hero__text h1, p {
@@ -59,26 +58,22 @@ h4 {
 
 .hero__text p {
     color:var(--text-color);
-    text-shadow: 1px 1px 1px #000000;
+    text-shadow: 1px 1px 1px var(--background-color);
 }
 
 .hero__text p:nth-child(2) {
-    font-family: "Monoton", sans-serif;;
-    color:var(--text-color);
-    text-shadow: 1px 1px 1px #000000;
+    font-family: "Monoton", sans-serif;
+    font-size:1.7em;
 }
 
 .hero__text p:nth-child(3) {
     font-family: "Press Start 2P", sans-serif;
     font-size:1.5em;
-    color:var(--text-color);
-    text-shadow: 1px 1px 1px #000000;
 }
 
 .hero__text p:nth-child(4) {
     font-family: "Dancing Script", sans-serif;
-    color:var(--text-color);
-    text-shadow: 1px 1px 1px #000000;
+    font-size:2.3em;
 }
 
 .top-menu {
