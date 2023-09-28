@@ -7,7 +7,7 @@ export const About = () => {
 
     section.id= 'about';
     section.className = 'about';
-    article.className = 'about__name';
+    article.className = 'about__text';
     p.textContent = `Hello! I'm a passionate cinephile with a deep love for the art of filmmaking, always eager to dive into
                 the world of movies and explore diverse genres and cinematic expressions. But my interests don't stop at
                 the silver screen! 🌐 I also have a penchant for traveling, exploring new horizons, and immersing myself
