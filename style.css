@@ -235,8 +235,34 @@ a {
         object-fit: cover;
     }
 
+    .about__text {
+        width: 400px;
+    }
+
     .hero__text:hover {
         transform: scale(1.05);
+    }
+
+    .projects {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects__card {
+        width: 400px;
+    }
+}
+
+@media (max-width: 412px) {
+
+    .projects {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects__card {
+        max-width: 300px;
+        object-fit: contain;
     }
 
 }
