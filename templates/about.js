@@ -22,8 +22,8 @@ export const About = () => {
     img.src = 'https://www.donetianpetkov.com/wp-content/uploads/2023/09/about_alt2.png';
 
     article.appendChild(p);
-    article.appendChild(img);
     section.appendChild(article);
+    section.appendChild(img);
 
     return section;
 
