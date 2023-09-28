@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Monoton&family=Fredericka+the+Great&family=Amatic+SC&family=Dancing+Script&family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Monoton&family=Patrick+Hand&family=Amatic+SC&family=Dancing+Script&family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap");
 
 :root {
     --background-color: #c0c2ff;
@@ -22,7 +22,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Fredericka the Great", serif;
+    font-family: "Patrick+Hand", serif;
 }
 
 .top-menu {
