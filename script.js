@@ -29,9 +29,11 @@ function route() {
             break;
         case 'about':
             element.appendChild(About());
+            Footer().map(x => footer.appendChild(x));
             break;
         case 'projects':
             element.appendChild(Projects())
+            Footer().map(x => footer.appendChild(x));
             break;
         case 'contact':
             Footer().map(x => footer.appendChild(x));
