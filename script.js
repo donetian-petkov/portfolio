@@ -1,4 +1,4 @@
-import {Home} from "./templates";
+import {Home} from "./templates/index.js";
 import {About} from "./templates/about.js";
 import {Projects} from "./templates/projects.js";
 import {Footer} from "./templates/footer.js";
