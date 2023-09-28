@@ -46,6 +46,7 @@ a {
     position: absolute;
     padding: 20px;
     text-align: center;
+    cursor: pointer;
     transform: translate(-30%, -70%);
     box-shadow: 3px 3px 10px 3px var(--background-color);
     transition: transform 0.3s ease-in-out;
@@ -210,10 +211,6 @@ a {
     .hero__text {
         transform: none;
         object-fit: cover;
-    }
-
-    .about__text {
-        width: 400px;
     }
 
     .hero__text:hover {
