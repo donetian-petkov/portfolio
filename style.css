@@ -222,7 +222,7 @@ a {
     text-align: center;
     padding: 20px;
     background-color: var(--accent-color);
-    color: white;
+    color: var(--background-color);
 }
 
 .footer a {
